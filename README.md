@@ -1,5 +1,6 @@
-Proptech application of technology in real-estate:
-
+Description:
+    
+    This project works with unsupervised machine learning. We use the KMeans technique to cluster the crypto currencies by their performance. This allows us to visualize their preformance and create a portfolio. By doing this we can find trends and outliers. 
 
 Technologies:
 
@@ -11,23 +12,23 @@ This project uses python 3.7 with the following packages:
 
 - [hvplot]- For making interactive plots/charts.
 
-- [sklearn.cluster import KMeans] - 
+- [sklearn.cluster import KMeans] - used to identify clusters of data objects in a dataset.
 
-- [sklearn.decomposition import PCA] - 
+- [sklearn.decomposition import PCA] - used to decompose a multivariate dataset in a set of successive orthogonal components that explain a maximum amount of the variance. 
 
-- [sklearn.preprocessing import StandardScaler] - 
+- [sklearn.preprocessing import StandardScaler] - Standardize features by removing the mean and scaling to unit variance.
 
 Installation Guide:
 Before running the application first install the following dependencies:
 - import pandas as pd
-import hvplot.pandas
-from pathlib import Path
-from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
-from sklearn.preprocessing import StandardScaler
+- import hvplot.pandas
+- from pathlib import Path
+- from sklearn.cluster import KMeans
+- from sklearn.decomposition import PCA
+- from sklearn.preprocessing import StandardScaler
 
 Usage:
-Using Proptech data visualization skills. This allows us to determine what are the best real estate investment options in the area. Using this application we can determine what are the best areas to buy for rental properties.
+    This project allows us 
 
 Contributors:
 brought to you by ~ Ariana Moreno
